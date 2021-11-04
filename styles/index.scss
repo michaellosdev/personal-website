@@ -7,15 +7,20 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-body {
 
+
+#page-one {
+    height: 100vh;
+    width: 100%;
+    
 }
 
 #nav {
+    margin: 0 auto;
     display: flex;
     height: 100px;
-    width: 100%;
-    justify-content: center;
+    width: 30%;
+    justify-content: space-between;
     align-items: center;
 
 }
@@ -26,22 +31,19 @@ body {
     margin: 0 25px;
 }
 
-#page-one {
-    height: 100vh;
-}
-
 #image-container {
-    width: 100%;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
-
 }
 
-#image-container img {
+#logo-image {
     width: 185px;
     height: 298px;
+    
+    
+
 }
 
 #page-one h1 {
@@ -49,12 +51,12 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 
 #link-icons {
     margin: 0 auto;
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
