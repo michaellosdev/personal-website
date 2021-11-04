@@ -1,0 +1,61 @@
+@import "global-variables.scss";
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+
+}
+
+#nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav li {
+    font-weight: 600;
+    display: inline;
+    margin: 0 25px;
+}
+
+#page-one {
+    height: 100vh;
+}
+
+#image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+#image-container img {
+    width: 185px;
+    height: 298px;
+}
+
+#page-one h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+#link-icons {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
